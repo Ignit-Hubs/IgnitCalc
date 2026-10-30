@@ -1,6 +1,6 @@
 {
-  "name": "IgniteCalc Ultimate Suite",
-  "short_name": "IgniteCalc",
+  "name": "IgnitCalc Ultimate Suite",
+  "short_name": "IgnitCalc",
   "description": "Professional Calculation Suite with History tracking",
   "start_url": "/index.html",
   "display": "standalone",
