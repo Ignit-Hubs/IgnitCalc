@@ -63,7 +63,7 @@ export const App: React.FC = () => {
 
   return (
     <div className="min-h-screen flex flex-col justify-between py-4 px-3 sm:px-6 relative overflow-x-hidden">
-      
+
       {/* Top Application Navigation */}
       <Navigation
         currentView={currentView}
@@ -121,11 +121,10 @@ export const App: React.FC = () => {
               <div className="flex items-center justify-center gap-1.5 sm:gap-2 mt-5 max-w-fit mx-auto p-1.5 rounded-2xl bg-black/40 border border-white/5 backdrop-blur-md">
                 <button
                   onClick={() => setActiveTab('standard')}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
-                    activeTab === 'standard'
+                  className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${activeTab === 'standard'
                       ? 'bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg shadow-indigo-500/25'
                       : 'text-slate-400 hover:text-white'
-                  }`}
+                    }`}
                 >
                   <Calculator className="w-3.5 h-3.5" />
                   <span>Standard</span>
@@ -133,11 +132,10 @@ export const App: React.FC = () => {
 
                 <button
                   onClick={() => setActiveTab('scientific')}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
-                    activeTab === 'scientific'
+                  className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${activeTab === 'scientific'
                       ? 'bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg shadow-indigo-500/25'
                       : 'text-slate-400 hover:text-white'
-                  }`}
+                    }`}
                 >
                   <Compass className="w-3.5 h-3.5" />
                   <span>Scientific</span>
@@ -145,11 +143,10 @@ export const App: React.FC = () => {
 
                 <button
                   onClick={() => setActiveTab('cgpa')}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
-                    activeTab === 'cgpa'
+                  className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${activeTab === 'cgpa'
                       ? 'bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg shadow-indigo-500/25'
                       : 'text-slate-400 hover:text-white'
-                  }`}
+                    }`}
                 >
                   <GraduationCap className="w-3.5 h-3.5" />
                   <span>CGPA</span>
@@ -157,11 +154,10 @@ export const App: React.FC = () => {
 
                 <button
                   onClick={() => setActiveTab('history')}
-                  className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${
-                    activeTab === 'history'
+                  className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${activeTab === 'history'
                       ? 'bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg shadow-indigo-500/25'
                       : 'text-slate-400 hover:text-white'
-                  }`}
+                    }`}
                 >
                   <History className="w-3.5 h-3.5" />
                   <span>Logs ({history.length})</span>

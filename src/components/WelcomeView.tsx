@@ -58,7 +58,7 @@ export const WelcomeView: React.FC<WelcomeViewProps> = ({
 
       {/* Feature Showcase Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-        
+
         {/* Card 1: Standard Calculator */}
         <div className="p-6 rounded-2xl bg-slate-900/60 border border-white/5 hover:border-indigo-500/30 transition-all group">
           <div className="w-12 h-12 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 mb-5 group-hover:scale-110 transition-transform">
