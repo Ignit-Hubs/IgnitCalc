@@ -28,7 +28,7 @@ The application features:
 - Full keyboard listener support: use numbers, `+`, `-`, `*`, `/`, `Enter`, `Backspace`, and `Escape`.
 - Floating-point accuracy handling to avoid standard JavaScript rounding issues.
 
-### 2. 🔬 Scientific Calculator
+### 2.  Scientific Calculator
 - **Trigonometric Functions**: `sin`, `cos`, `tan`, and their inverses (`sin⁻¹`, `cos⁻¹`, `tan⁻¹`).
 - **Angle Modes**: Switch between **Degrees (DEG)** and **Radians (RAD)**.
 - **Logarithmic Functions**: Base-10 (`log`) and Natural logarithm (`ln`).
