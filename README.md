@@ -1,4 +1,4 @@
-# 🔥 IgniteCalc: Modern Calculation & Academic Suite
+#  IgniteCalc: Modern Calculation & Academic Suite
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
@@ -8,7 +8,7 @@
 
 ---
 
-## 🌟 Overview
+##  Overview
 
 **IgniteCalc** is a fast, responsive, modern frontend calculation suite built with **React**, **TypeScript (TSX)**, and **Tailwind CSS**. It provides a clean, unified experience for everyday arithmetic, scientific STEM calculations, and college/university CGPA tracking.
 
@@ -21,9 +21,9 @@ The application features:
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-### 1. 🧮 Standard Calculator
+### 1.  Standard Calculator
 - Essential operations: addition, subtraction, multiplication, division, and percentage.
 - Full keyboard listener support: use numbers, `+`, `-`, `*`, `/`, `Enter`, `Backspace`, and `Escape`.
 - Floating-point accuracy handling to avoid standard JavaScript rounding issues.
@@ -37,22 +37,22 @@ The application features:
 - **Constants**: High-precision $\pi$ and $e$.
 - **Additional**: Negation (`±`), Reciprocal (`1/x`), Absolute value (`|x|`), and `RAND`.
 
-### 3. 🎓 CGPA & Academic Grader (5.0 Scale)
+### 3.  CGPA & Academic Grader (5.0 Scale)
 - Dynamically add or remove courses for any semester.
 - Enter credit units and select letter grades (A = 5, B = 4, C = 3, D = 2, E = 1, F = 0).
 - Instant GPA calculation with academic standing (First Class, Second Class Upper, Second Class Lower, Third Class, or Probation).
 
-### 4. 🛡️ Cloudflare Human Verification
+### 4.  Cloudflare Human Verification
 - Integrated Cloudflare Turnstile widget requiring a quick human verification check before signing up or logging in.
 
-### 5. 🔐 Google, Apple & Email Authentication
+### 5.  Google, Apple & Email Authentication
 - One-click Google and Apple sign-in.
 - Email and password sign-in / registration with password confirmation.
 - Option to continue as Guest without needing an account.
 
 ---
 
-## 💻 Tech Stack
+##  Tech Stack
 
 - **Language**: TypeScript (`.ts`, `.tsx`)
 - **UI Library**: React 19
@@ -62,7 +62,7 @@ The application features:
 
 ---
 
-## 🏃 Getting Started
+##  Getting Started
 
 ### 1. Install Dependencies
 ```bash
