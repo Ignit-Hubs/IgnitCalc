@@ -2,13 +2,13 @@ import React from 'react';
 import { Calculator, Compass, GraduationCap, ArrowRight, ShieldCheck, Zap, Sparkles, CheckCircle2, History } from 'lucide-react';
 
 interface WelcomeViewProps {
-  onStartCalculator: () => void;
+  onGoToSignIn: () => void;
   onGoToSignIn: () => void;
   onGoToSignUp: () => void;
 }
 
 export const WelcomeView: React.FC<WelcomeViewProps> = ({
-  onStartCalculator,
+  onGoToSignIn,
   onGoToSignIn,
   onGoToSignUp
 }) => {
@@ -33,7 +33,7 @@ export const WelcomeView: React.FC<WelcomeViewProps> = ({
         {/* Primary Action Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <button
-            onClick={onStartCalculator}
+            onClick={onGoToSignIn}
             className="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-indigo-500 via-purple-600 to-indigo-600 hover:from-indigo-600 hover:to-purple-700 text-white font-bold text-sm sm:text-base flex items-center justify-center gap-2 shadow-lg shadow-indigo-500/25 transition-all hover:scale-[1.02] active:scale-[0.98]"
           >
             <span>Open Calculator</span>
