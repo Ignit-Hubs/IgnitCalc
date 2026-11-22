@@ -73,7 +73,7 @@ npm install
 ```bash
 npm run dev
 ```
-Open **http://127.0.0.1:5173** (or http://localhost:5173) in your browser.
+Open **http://127.0.0.1:3000** (or http://localhost:3000) in your browser.
 
 ### 3. Build for Production
 ```bash
