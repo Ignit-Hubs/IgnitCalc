@@ -5,9 +5,10 @@ import { CalculationHistoryItem } from '../types';
 interface HistoryViewProps {
   history: CalculationHistoryItem[];
   onClearHistory: () => void;
+  onSelectRecord?: (record: CalculationHistoryItem) => void;
 }
 
-export const HistoryView: React.FC<HistoryViewProps> = ({ history, onClearHistory }) => {
+export const HistoryView: React.FC<HistoryViewProps> = ({ history, onClearHistory, onSelectRecord }) => {
   const [filter, setFilter] = useState<'ALL' | 'STANDARD' | 'SCIENTIFIC' | 'CGPA'>('ALL');
   const [search, setSearch] = useState('');
 
@@ -115,7 +116,8 @@ export const HistoryView: React.FC<HistoryViewProps> = ({ history, onClearHistor
             filteredHistory.map(item => (
               <div
                 key={item.id}
-                className="history-item glass bg-black/30 p-4 sm:p-5 rounded-2xl border border-white/5 hover:border-indigo-500/20 transition-all"
+                onClick={() => onSelectRecord?.(item)}
+                className="history-item glass bg-black/30 p-4 sm:p-5 rounded-2xl border border-white/5 hover:border-indigo-500/20 transition-all cursor-pointer"
               >
                 <div className="flex justify-between items-center mb-2">
                   <span

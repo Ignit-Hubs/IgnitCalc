@@ -18,6 +18,7 @@ export const Navigation: React.FC<NavigationProps> = ({
   onLogout,
   onOpenSignIn,
   onOpenSignUp
+
 }) => {
   return (
     <nav className="flex items-center justify-between gap-4 mb-6 px-2 w-full max-w-5xl mx-auto py-2">
@@ -44,8 +45,8 @@ export const Navigation: React.FC<NavigationProps> = ({
         <button
           onClick={() => setCurrentView('welcome')}
           className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${currentView === 'welcome'
-              ? 'bg-indigo-600 text-white shadow-sm shadow-indigo-600/30'
-              : 'text-slate-400 hover:text-white'
+            ? 'bg-indigo-600 text-white shadow-sm shadow-indigo-600/30'
+            : 'text-slate-400 hover:text-white'
             }`}
         >
           <Home className="w-3.5 h-3.5" />
@@ -55,8 +56,8 @@ export const Navigation: React.FC<NavigationProps> = ({
         <button
           onClick={onOpenSignIn}
           className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center gap-1.5 ${currentView === 'main'
-              ? 'bg-indigo-600 text-white shadow-sm shadow-indigo-600/30'
-              : 'text-slate-400 hover:text-white'
+            ? 'bg-indigo-600 text-white shadow-sm shadow-indigo-600/30'
+            : 'text-slate-400 hover:text-white'
             }`}
         >
           <Calculator className="w-3.5 h-3.5" />
@@ -94,8 +95,8 @@ export const Navigation: React.FC<NavigationProps> = ({
             <button
               onClick={onOpenSignIn}
               className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${currentView === 'signin'
-                  ? 'bg-white text-slate-900'
-                  : 'text-slate-300 hover:text-white bg-white/5 hover:bg-white/10'
+                ? 'bg-white text-slate-900'
+                : 'text-slate-300 hover:text-white bg-white/5 hover:bg-white/10'
                 }`}
             >
               Sign In
@@ -104,8 +105,8 @@ export const Navigation: React.FC<NavigationProps> = ({
             <button
               onClick={onOpenSignUp}
               className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all hidden sm:inline-block ${currentView === 'signup'
-                  ? 'bg-indigo-600 text-white'
-                  : 'bg-indigo-500/20 hover:bg-indigo-500/30 text-indigo-300 hover:text-white border border-indigo-500/30'
+                ? 'bg-indigo-600 text-white'
+                : 'bg-indigo-500/20 hover:bg-indigo-500/30 text-indigo-300 hover:text-white border border-indigo-500/30'
                 }`}
             >
               Create Account

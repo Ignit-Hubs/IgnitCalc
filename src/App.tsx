@@ -1,4 +1,4 @@
-. by import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Calculator, Compass, GraduationCap, History, User } from 'lucide-react';
 import { AppView, CalculatorMode, CalculationHistoryItem, UserProfile } from './types';
 import { apiClient } from './services/apiClient';
@@ -204,7 +204,6 @@ export const App: React.FC = () => {
       </div>
 
       {/* Footer */}
-// Footer view ( make correction soon 
       <Footer />
     </div>
   );
