@@ -27,7 +27,7 @@ export const WelcomeView: React.FC<WelcomeViewProps> = ({
         </h1>
 
         <p className="text-slate-300 text-base sm:text-lg leading-relaxed mb-10 max-w-2xl mx-auto">
-          IgniteCalc brings together everyday arithmetic, high-level scientific computation, and university GPA tracking in one responsive web application.
+          IgnitCalc brings together everyday arithmetic, high-level scientific computation, and university GPA tracking in one responsive web application.
         </p>
 
         {/* Primary Action Buttons */}

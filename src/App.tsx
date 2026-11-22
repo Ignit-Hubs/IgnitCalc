@@ -111,7 +111,7 @@ export const App: React.FC = () => {
             {/* Header */}
             <header className="text-center mb-6">
               <h1 className="text-4xl sm:text-5xl font-black font-outfit text-white tracking-tight mb-2">
-                IgniteCalc
+                IgnitCalc
               </h1>
               <p className="text-xs sm:text-sm font-semibold tracking-wider text-slate-400">
                 Standard Arithmetic • Scientific Functions • Academic CGPA

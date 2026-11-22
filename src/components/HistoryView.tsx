@@ -14,7 +14,7 @@ export const HistoryView: React.FC<HistoryViewProps> = ({ history, onClearHistor
 
   const filteredHistory = history.filter(item => {
     const matchesFilter = filter === 'ALL' || item.type === filter;
-    const matchesSearch = 
+    const matchesSearch =
       item.operation.toLowerCase().includes(search.toLowerCase()) ||
       item.result.toLowerCase().includes(search.toLowerCase());
     return matchesFilter && matchesSearch;
@@ -25,7 +25,7 @@ export const HistoryView: React.FC<HistoryViewProps> = ({ history, onClearHistor
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `ignitecalc_history_${new Date().toISOString().slice(0, 10)}.json`;
+    a.download = `ignitcalc_history_${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -33,7 +33,7 @@ export const HistoryView: React.FC<HistoryViewProps> = ({ history, onClearHistor
   return (
     <div className="w-full max-w-3xl mx-auto animate-slideUp">
       <div className="calc-card glass p-6 sm:p-10 rounded-[3rem] shadow-2xl border border-white/10">
-        
+
         {/* Header */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-8 pb-4 border-b border-white/5">
           <div className="flex items-center gap-3">
@@ -88,11 +88,10 @@ export const HistoryView: React.FC<HistoryViewProps> = ({ history, onClearHistor
               <button
                 key={tab}
                 onClick={() => setFilter(tab)}
-                className={`px-3 py-1.5 rounded-xl text-[11px] font-bold uppercase tracking-wider transition-all ${
-                  filter === tab
+                className={`px-3 py-1.5 rounded-xl text-[11px] font-bold uppercase tracking-wider transition-all ${filter === tab
                     ? 'bg-indigo-600 text-white shadow-md'
                     : 'text-slate-400 hover:text-white'
-                }`}
+                  }`}
               >
                 {tab}
               </button>
@@ -121,13 +120,12 @@ export const HistoryView: React.FC<HistoryViewProps> = ({ history, onClearHistor
               >
                 <div className="flex justify-between items-center mb-2">
                   <span
-                    className={`text-[10px] font-black uppercase tracking-widest px-2.5 py-0.5 rounded-full border ${
-                      item.type === 'STANDARD'
+                    className={`text-[10px] font-black uppercase tracking-widest px-2.5 py-0.5 rounded-full border ${item.type === 'STANDARD'
                         ? 'bg-blue-500/10 text-blue-300 border-blue-500/20'
                         : item.type === 'SCIENTIFIC'
-                        ? 'bg-purple-500/10 text-purple-300 border-purple-500/20'
-                        : 'bg-emerald-500/10 text-emerald-300 border-emerald-500/20'
-                    }`}
+                          ? 'bg-purple-500/10 text-purple-300 border-purple-500/20'
+                          : 'bg-emerald-500/10 text-emerald-300 border-emerald-500/20'
+                      }`}
                   >
                     {item.type}
                   </span>

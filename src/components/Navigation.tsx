@@ -32,7 +32,7 @@ export const Navigation: React.FC<NavigationProps> = ({
         </div>
         <div>
           <span className="font-outfit font-black text-xl tracking-tight text-white block group-hover:text-indigo-300 transition-colors">
-            IgniteCalc
+            IgnitCalc
           </span>
           <span className="text-[10px] uppercase font-bold tracking-widest text-indigo-400 block -mt-1">
             Calculation Suite

@@ -11,8 +11,8 @@ import { CalculationHistoryItem, UserProfile } from '../types';
  */
 
 const API_BASE_URL = 'http://localhost:5000/api';
-const STORAGE_KEY_USER = 'ignitecalc_auth_user';
-const STORAGE_KEY_HISTORY = 'ignitecalc_history';
+const STORAGE_KEY_USER = 'ignitcalc_auth_user';
+const STORAGE_KEY_HISTORY = 'ignitcalc_history';
 
 // Helper to simulate realistic network delay
 const delay = (ms: number = 400) => new Promise(res => setTimeout(res, ms));

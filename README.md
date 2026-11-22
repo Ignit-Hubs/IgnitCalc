@@ -1,4 +1,4 @@
-#  IgniteCalc: Modern Calculation & Academic Suite
+#  IgnitCalc: Modern Calculation & Academic Suite
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
@@ -10,7 +10,7 @@
 
 ##  Overview
 
-**IgniteCalc** is a fast, responsive, modern frontend calculation suite built with **React**, **TypeScript (TSX)**, and **Tailwind CSS**. It provides a clean, unified experience for everyday arithmetic, scientific STEM calculations, and college/university CGPA tracking.
+**IgnitCalc** is a fast, responsive, modern frontend calculation suite built with **React**, **TypeScript (TSX)**, and **Tailwind CSS**. It provides a clean, unified experience for everyday arithmetic, scientific STEM calculations, and college/university CGPA tracking.
 
 The application features:
 - **Welcome Landing Page**: An introduction showcasing the suite features with quick-launch actions.

@@ -1,5 +1,5 @@
 {
-  "name": "ignitecalc",
+  "name": "ignitcalc",
   "private": true,
   "version": "2.0.0",
   "type": "module",
@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "description": "IgniteCalc Pro - Calculation Suite with Standard, Scientific, and CGPA calculators built with TypeScript, React, and Tailwind CSS.",
+  "description": "IgnitCalc Pro - Calculation Suite with Standard, Scientific, and CGPA calculators built with TypeScript, React, and Tailwind CSS.",
   "dependencies": {
     "@types/leaflet": "^1.9.22",
     "@types/react": "^19.3.0",
